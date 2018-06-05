@@ -4,10 +4,10 @@ close all
 %% Data
 
 % Users and density
-concurrency = 0.35;
+concurrency = 0.15;
 % percentage5G = 0.10;
-users = 3012;
-km2 = 3000*10^-6; %km2
+users = ;
+km2 = ; %km2
 
 users = users/km2;
 
@@ -26,8 +26,8 @@ BW5G = 500e6;
 MIMO5G = 8;
 
 % Spectral efficiency [T = R implies that C is multiplied by T]
-spectralEffDL5G = MIMO5G*30;
-spectralEffUL5G = MIMO5G*15;
+spectralEffDL5G = 30;
+spectralEffUL5G = 15;
 
 %% Coverage
 BSPower5G = 20.97; % dBm
